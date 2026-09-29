@@ -15,11 +15,11 @@ class FhemApp extends Application.AppBase {
     function onStop(state as Dictionary or Null) as Void {
     }
 
-    // Startansicht: Liste der Geraete-Gruppen (Rolladen Alle, Drucker, ...)
+    // Startansicht: eine leere View, die sofort zur Gruppen-Menue-Ansicht
+    // wechselt. Manche Geraete (Connect IQ 3.3, z.B. Vivoactive 4S) erlauben
+    // keine native Menu2-Ansicht direkt als Startansicht eines Widgets.
     function getInitialView() as [WatchUi.Views] or [WatchUi.Views, WatchUi.InputDelegates] {
-        var menu = new FhemGroupMenu();
-        var delegate = new FhemGroupMenuDelegate();
-        return [menu, delegate] as [WatchUi.Views, WatchUi.InputDelegates];
+        return [new FhemInitialView()] as [WatchUi.Views];
     }
 
 }
