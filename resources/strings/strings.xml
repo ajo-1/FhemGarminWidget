@@ -1,6 +1,6 @@
 <resources>
     <strings>
-        <string id="AppName">FHEM Steuerung</string>
+        <string id="AppName">FhemGWidget</string>
         <string id="SettingBaseUrl">FHEM-URL (z.B. https://openvas.home.2cv-6.de/fhem)</string>
         <string id="SettingUser">Benutzername (Basic Auth)</string>
         <string id="SettingPass">Passwort (Basic Auth)</string>

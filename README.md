@@ -1,7 +1,9 @@
-# FHEM-Steuerung für Garmin Venu 4 (Connect IQ Widget)
+# FhemGWidget
 
-Ersatz für die alte, unbenutzte "FHEM App" (GarminFhem) von Talkabout, die
-die Venu 4 noch nicht unterstützt. Dieses Widget bietet dieselben Aktionen
+FHEM-Steuerung für Venu 4 (Connect IQ Widget).
+
+Ersatz für die alte, unbenutzte FHEM-App von Talkabout, die die Venu 4 noch
+nicht unterstützt. Dieses Widget bietet dieselben Aktionen
 wie deine bisherige Konfiguration:
 
 - Rolladen Alle / Hinten / EG / Schlafzimmer (Zu/Auf)
